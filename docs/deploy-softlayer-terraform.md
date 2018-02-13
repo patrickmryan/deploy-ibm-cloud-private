@@ -21,7 +21,7 @@ _Softlayer username and API key_
 * Next, go look at your [devices in Softlayer](https://control.softlayer.com/devices)
 * Pick a device and look at the details.
 * Halfway down the list of details, you will see the _Network_ section in two columns. The public subnet VLAN is on the left, the private subnet VLAN is on the right.
-* The subnet will have a name like `wdc01.fcr05a.918`. The first substring identifies the data center. In this case it's data center 01 in Washington DC. Take note of that data center identifier and store it in the same place where you put you Softlayer user ID and API key.
+* The subnet will have a name like `wdc01.fcr05a.918`. The first substring identifies the data center. In this case it's data center 01 in Washington DC. Take note of that data center identifier and store it in the same place where you saved your Softlayer user ID and API key.
 * Next, click on the _public_ VLAN link.  You'll go to a page such as [https://control.softlayer.com/network/vlans/2262109](https://control.softlayer.com/network/vlans/2262109)
 * That long number at the end of the URL is the public VLAN ID. Record that number.
 * Click the Back button on your browser to get back to the device summary page.
